@@ -6,7 +6,7 @@ const Item = ({ img }) => (
     <figure className="project-list__box">
         <img
             className="project-list__img"
-            src={ `/img/${ img }` }
+            src={ `https://blackwhite2018.github.io/Gallery/img/${ img }` }
             alt={ img.replace(/\..+/, '') }
         />
     </figure>
