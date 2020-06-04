@@ -4,6 +4,7 @@
     color: #555;
     transition: all .7s;
     padding: 5px 15px;
+    cursor: pointer;
 }
   
 .filter__item--active,
