@@ -1,6 +1,6 @@
 React masonry grid and filtering by category
 
-<a href="https://blackwhite2018.github.io/Gallery/">View Demo</a>
+<a href="https://blackwhite2018.github.io/Gallery/" target="_blank">View Demo</a>
 
 ## Installation
 
