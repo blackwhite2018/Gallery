@@ -1,0 +1,19 @@
+.filter__item {
+	background: rgba(0, 0, 0, 0);
+    border: 1px solid #555;
+    color: #555;
+    transition: all .7s;
+    padding: 5px 15px;
+}
+  
+.filter__item--active,
+.filter__item:hover,
+.filter__item:focus {
+    color: #fff;
+    background: #555;
+}
+
+.filter__item:not(:last-child) {
+	margin-right: 1em;
+	margin-bottom: 1em;
+}
