@@ -6,10 +6,10 @@ import Item from './Item/Item';
 const ProjectList = ({ listProjects }) => (
     <div className="project-list">
         {
-            listProjects.map((project, index) => (
+            listProjects.map(({ img }, index) => (
                 <Item
                     key={ index }
-                    img={ project.img }                            
+                    img={ img }                            
                 />)
             )
         }
